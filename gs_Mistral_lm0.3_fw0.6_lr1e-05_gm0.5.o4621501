@@ -1,0 +1,7 @@
+please do: 
+
+eval "$(/apps/t4/rhel9/free/miniconda/24.1.2/bin/conda shell.YOUR_SHELL_NAME hook)"
+
+where YOUR_SHELL_NAME is your shell name.(ex: bash)
+trainable params: 41,943,040 || all params: 7,283,675,136 || trainable%: 0.5758
+[2025-08-02 01:52:31,908] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)

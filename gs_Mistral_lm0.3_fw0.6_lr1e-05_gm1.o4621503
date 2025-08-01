@@ -1,0 +1,1478 @@
+please do: 
+
+eval "$(/apps/t4/rhel9/free/miniconda/24.1.2/bin/conda shell.YOUR_SHELL_NAME hook)"
+
+where YOUR_SHELL_NAME is your shell name.(ex: bash)
+trainable params: 41,943,040 || all params: 7,283,675,136 || trainable%: 0.5758
+[2025-08-02 01:43:51,618] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+l_con_f tensor(2.0938, device='cuda:0', dtype=torch.bfloat16, grad_fn=<NegBackward0>)
+l_con_r tensor(0.6016, device='cuda:0', dtype=torch.bfloat16, grad_fn=<NegBackward0>)
+contrastive_loss tensor(1.5000, device='cuda:0', dtype=torch.bfloat16, grad_fn=<AddBackward0>)
+forget_lm_loss, retain_lm_loss, lm_loss tensor(13.6402, device='cuda:0', grad_fn=<NllLossBackward0>) tensor(8.4786, device='cuda:0', grad_fn=<NllLossBackward0>) tensor(5.1616, device='cuda:0', grad_fn=<SubBackward0>)
+total_loss tensor(-0.5016, device='cuda:0', grad_fn=<SubBackward0>)
+l_con_f tensor(2.5312, device='cuda:0', dtype=torch.bfloat16, grad_fn=<NegBackward0>)
+l_con_r tensor(0.6055, device='cuda:0', dtype=torch.bfloat16, grad_fn=<NegBackward0>)
+contrastive_loss tensor(1.7578, device='cuda:0', dtype=torch.bfloat16, grad_fn=<AddBackward0>)
+forget_lm_loss, retain_lm_loss, lm_loss tensor(22.1763, device='cuda:0', grad_fn=<NllLossBackward0>) tensor(13.8057, device='cuda:0', grad_fn=<NllLossBackward0>) tensor(8.3706, device='cuda:0', grad_fn=<SubBackward0>)
+total_loss tensor(-1.2768, device='cuda:0', grad_fn=<SubBackward0>)
+l_con_f tensor(2.8906, device='cuda:0', dtype=torch.bfloat16, grad_fn=<NegBackward0>)
+l_con_r tensor(0.6055, device='cuda:0', dtype=torch.bfloat16, grad_fn=<NegBackward0>)
+contrastive_loss tensor(1.9766, device='cuda:0', dtype=torch.bfloat16, grad_fn=<AddBackward0>)
+forget_lm_loss, retain_lm_loss, lm_loss tensor(24.6111, device='cuda:0', grad_fn=<NllLossBackward0>) tensor(17.7502, device='cuda:0', grad_fn=<NllLossBackward0>) tensor(6.8609, device='cuda:0', grad_fn=<SubBackward0>)
+total_loss tensor(-0.6755, device='cuda:0', grad_fn=<SubBackward0>)
+l_con_f tensor(2.4375, device='cuda:0', dtype=torch.bfloat16, grad_fn=<NegBackward0>)
+l_con_r tensor(0.6016, device='cuda:0', dtype=torch.bfloat16, grad_fn=<NegBackward0>)
+contrastive_loss tensor(1.7031, device='cuda:0', dtype=torch.bfloat16, grad_fn=<AddBackward0>)
+forget_lm_loss, retain_lm_loss, lm_loss tensor(28.3722, device='cuda:0', grad_fn=<NllLossBackward0>) tensor(16.3106, device='cuda:0', grad_fn=<NllLossBackward0>) tensor(12.0616, device='cuda:0', grad_fn=<SubBackward0>)
+total_loss tensor(-2.4232, device='cuda:0', grad_fn=<SubBackward0>)
+l_con_f tensor(2.4062, device='cuda:0', dtype=torch.bfloat16, grad_fn=<NegBackward0>)
+l_con_r tensor(0.6016, device='cuda:0', dtype=torch.bfloat16, grad_fn=<NegBackward0>)
+contrastive_loss tensor(1.6875, device='cuda:0', dtype=torch.bfloat16, grad_fn=<AddBackward0>)
+forget_lm_loss, retain_lm_loss, lm_loss tensor(37.8394, device='cuda:0', grad_fn=<NllLossBackward0>) tensor(20.5497, device='cuda:0', grad_fn=<NllLossBackward0>) tensor(17.2898, device='cuda:0', grad_fn=<SubBackward0>)
+total_loss tensor(-4.0072, device='cuda:0', grad_fn=<SubBackward0>)
+l_con_f tensor(2.3438, device='cuda:0', dtype=torch.bfloat16, grad_fn=<NegBackward0>)
+l_con_r tensor(0.6055, device='cuda:0', dtype=torch.bfloat16, grad_fn=<NegBackward0>)
+contrastive_loss tensor(1.6484, device='cuda:0', dtype=torch.bfloat16, grad_fn=<AddBackward0>)
+forget_lm_loss, retain_lm_loss, lm_loss tensor(49.8250, device='cuda:0', grad_fn=<NllLossBackward0>) tensor(25.7800, device='cuda:0', grad_fn=<NllLossBackward0>) tensor(24.0449, device='cuda:0', grad_fn=<SubBackward0>)
+total_loss tensor(-6.0572, device='cuda:0', grad_fn=<SubBackward0>)
+l_con_f tensor(2.1094, device='cuda:0', dtype=torch.bfloat16, grad_fn=<NegBackward0>)
+l_con_r tensor(0.6055, device='cuda:0', dtype=torch.bfloat16, grad_fn=<NegBackward0>)
+contrastive_loss tensor(1.5078, device='cuda:0', dtype=torch.bfloat16, grad_fn=<AddBackward0>)
+forget_lm_loss, retain_lm_loss, lm_loss tensor(52.4282, device='cuda:0', grad_fn=<NllLossBackward0>) tensor(22.9593, device='cuda:0', grad_fn=<NllLossBackward0>) tensor(29.4689, device='cuda:0', grad_fn=<SubBackward0>)
+total_loss tensor(-7.7860, device='cuda:0', grad_fn=<SubBackward0>)
+l_con_f tensor(2.3438, device='cuda:0', dtype=torch.bfloat16, grad_fn=<NegBackward0>)
+l_con_r tensor(0.6016, device='cuda:0', dtype=torch.bfloat16, grad_fn=<NegBackward0>)
+contrastive_loss tensor(1.6484, device='cuda:0', dtype=torch.bfloat16, grad_fn=<AddBackward0>)
+forget_lm_loss, retain_lm_loss, lm_loss tensor(70.0771, device='cuda:0', grad_fn=<NllLossBackward0>) tensor(36.9164, device='cuda:0', grad_fn=<NllLossBackward0>) tensor(33.1607, device='cuda:0', grad_fn=<SubBackward0>)
+total_loss tensor(-8.7920, device='cuda:0', grad_fn=<SubBackward0>)
+l_con_f tensor(2.3125, device='cuda:0', dtype=torch.bfloat16, grad_fn=<NegBackward0>)
+l_con_r tensor(0.5859, device='cuda:0', dtype=torch.bfloat16, grad_fn=<NegBackward0>)
+contrastive_loss tensor(1.6250, device='cuda:0', dtype=torch.bfloat16, grad_fn=<AddBackward0>)
+forget_lm_loss, retain_lm_loss, lm_loss tensor(70.0937, device='cuda:0', grad_fn=<NllLossBackward0>) tensor(36.5933, device='cuda:0', grad_fn=<NllLossBackward0>) tensor(33.5004, device='cuda:0', grad_fn=<SubBackward0>)
+total_loss tensor(-8.9095, device='cuda:0', grad_fn=<SubBackward0>)
+{'loss': -4.8354, 'grad_norm': 15.412476539611816, 'learning_rate': 6.666666666666667e-06, 'epoch': 1.0}
+l_con_f tensor(1.6328, device='cuda:0', dtype=torch.bfloat16, grad_fn=<NegBackward0>)
+l_con_r tensor(0.6016, device='cuda:0', dtype=torch.bfloat16, grad_fn=<NegBackward0>)
+contrastive_loss tensor(1.2188, device='cuda:0', dtype=torch.bfloat16, grad_fn=<AddBackward0>)
+forget_lm_loss, retain_lm_loss, lm_loss tensor(88.3975, device='cuda:0', grad_fn=<NllLossBackward0>) tensor(42.4694, device='cuda:0', grad_fn=<NllLossBackward0>) tensor(45.9281, device='cuda:0', grad_fn=<SubBackward0>)
+total_loss tensor(-12.9269, device='cuda:0', grad_fn=<SubBackward0>)
+l_con_f tensor(1.4297, device='cuda:0', dtype=torch.bfloat16, grad_fn=<NegBackward0>)
+l_con_r tensor(0.5938, device='cuda:0', dtype=torch.bfloat16, grad_fn=<NegBackward0>)
+contrastive_loss tensor(1.0938, device='cuda:0', dtype=torch.bfloat16, grad_fn=<AddBackward0>)
+forget_lm_loss, retain_lm_loss, lm_loss tensor(93.8009, device='cuda:0', grad_fn=<NllLossBackward0>) tensor(47.4439, device='cuda:0', grad_fn=<NllLossBackward0>) tensor(46.3570, device='cuda:0', grad_fn=<SubBackward0>)
+total_loss tensor(-13.1415, device='cuda:0', grad_fn=<SubBackward0>)
+l_con_f tensor(1.5469, device='cuda:0', dtype=torch.bfloat16, grad_fn=<NegBackward0>)
+l_con_r tensor(0.6094, device='cuda:0', dtype=torch.bfloat16, grad_fn=<NegBackward0>)
+contrastive_loss tensor(1.1719, device='cuda:0', dtype=torch.bfloat16, grad_fn=<AddBackward0>)
+forget_lm_loss, retain_lm_loss, lm_loss tensor(88.8833, device='cuda:0', grad_fn=<NllLossBackward0>) tensor(46.1937, device='cuda:0', grad_fn=<NllLossBackward0>) tensor(42.6896, device='cuda:0', grad_fn=<SubBackward0>)
+total_loss tensor(-11.9866, device='cuda:0', grad_fn=<SubBackward0>)
+l_con_f tensor(1.3750, device='cuda:0', dtype=torch.bfloat16, grad_fn=<NegBackward0>)
+l_con_r tensor(0.6055, device='cuda:0', dtype=torch.bfloat16, grad_fn=<NegBackward0>)
+contrastive_loss tensor(1.0625, device='cuda:0', dtype=torch.bfloat16, grad_fn=<AddBackward0>)
+forget_lm_loss, retain_lm_loss, lm_loss tensor(91.9196, device='cuda:0', grad_fn=<NllLossBackward0>) tensor(46.6978, device='cuda:0', grad_fn=<NllLossBackward0>) tensor(45.2219, device='cuda:0', grad_fn=<SubBackward0>)
+total_loss tensor(-12.8244, device='cuda:0', grad_fn=<SubBackward0>)
+{'loss': -11.3481, 'grad_norm': 5.532799243927002, 'learning_rate': 3.3333333333333333e-06, 'epoch': 2.0}
+l_con_f tensor(1.0234, device='cuda:0', dtype=torch.bfloat16, grad_fn=<NegBackward0>)
+l_con_r tensor(0.6094, device='cuda:0', dtype=torch.bfloat16, grad_fn=<NegBackward0>)
+contrastive_loss tensor(0.8594, device='cuda:0', dtype=torch.bfloat16, grad_fn=<AddBackward0>)
+forget_lm_loss, retain_lm_loss, lm_loss tensor(93.4437, device='cuda:0', grad_fn=<NllLossBackward0>) tensor(42.2429, device='cuda:0', grad_fn=<NllLossBackward0>) tensor(51.2008, device='cuda:0', grad_fn=<SubBackward0>)
+total_loss tensor(-14.7587, device='cuda:0', grad_fn=<SubBackward0>)
+l_con_f tensor(1.4062, device='cuda:0', dtype=torch.bfloat16, grad_fn=<NegBackward0>)
+l_con_r tensor(0.6133, device='cuda:0', dtype=torch.bfloat16, grad_fn=<NegBackward0>)
+contrastive_loss tensor(1.0859, device='cuda:0', dtype=torch.bfloat16, grad_fn=<AddBackward0>)
+forget_lm_loss, retain_lm_loss, lm_loss tensor(97.0792, device='cuda:0', grad_fn=<NllLossBackward0>) tensor(53.2740, device='cuda:0', grad_fn=<NllLossBackward0>) tensor(43.8051, device='cuda:0', grad_fn=<SubBackward0>)
+total_loss tensor(-12.3798, device='cuda:0', grad_fn=<SubBackward0>)
+l_con_f tensor(1.1250, device='cuda:0', dtype=torch.bfloat16, grad_fn=<NegBackward0>)
+l_con_r tensor(0.6094, device='cuda:0', dtype=torch.bfloat16, grad_fn=<NegBackward0>)
+contrastive_loss tensor(0.9219, device='cuda:0', dtype=torch.bfloat16, grad_fn=<AddBackward0>)
+forget_lm_loss, retain_lm_loss, lm_loss tensor(95.3405, device='cuda:0', grad_fn=<NllLossBackward0>) tensor(46.0965, device='cuda:0', grad_fn=<NllLossBackward0>) tensor(49.2440, device='cuda:0', grad_fn=<SubBackward0>)
+total_loss tensor(-14.1287, device='cuda:0', grad_fn=<SubBackward0>)
+l_con_f tensor(1.3125, device='cuda:0', dtype=torch.bfloat16, grad_fn=<NegBackward0>)
+l_con_r tensor(0.6016, device='cuda:0', dtype=torch.bfloat16, grad_fn=<NegBackward0>)
+contrastive_loss tensor(1.0312, device='cuda:0', dtype=torch.bfloat16, grad_fn=<AddBackward0>)
+forget_lm_loss, retain_lm_loss, lm_loss tensor(94.0556, device='cuda:0', grad_fn=<NllLossBackward0>) tensor(50.9752, device='cuda:0', grad_fn=<NllLossBackward0>) tensor(43.0804, device='cuda:0', grad_fn=<SubBackward0>)
+total_loss tensor(-12.2015, device='cuda:0', grad_fn=<SubBackward0>)
+l_con_f tensor(1.5625, device='cuda:0', dtype=torch.bfloat16, grad_fn=<NegBackward0>)
+l_con_r tensor(0.6211, device='cuda:0', dtype=torch.bfloat16, grad_fn=<NegBackward0>)
+contrastive_loss tensor(1.1875, device='cuda:0', dtype=torch.bfloat16, grad_fn=<AddBackward0>)
+forget_lm_loss, retain_lm_loss, lm_loss tensor(91.2415, device='cuda:0', grad_fn=<NllLossBackward0>) tensor(55.2180, device='cuda:0', grad_fn=<NllLossBackward0>) tensor(36.0235, device='cuda:0', grad_fn=<SubBackward0>)
+total_loss tensor(-9.9750, device='cuda:0', grad_fn=<SubBackward0>)
+l_con_f tensor(1.4062, device='cuda:0', dtype=torch.bfloat16, grad_fn=<NegBackward0>)
+l_con_r tensor(0.6055, device='cuda:0', dtype=torch.bfloat16, grad_fn=<NegBackward0>)
+contrastive_loss tensor(1.0859, device='cuda:0', dtype=torch.bfloat16, grad_fn=<AddBackward0>)
+forget_lm_loss, retain_lm_loss, lm_loss tensor(86.6492, device='cuda:0', grad_fn=<NllLossBackward0>) tensor(44.6697, device='cuda:0', grad_fn=<NllLossBackward0>) tensor(41.9795, device='cuda:0', grad_fn=<SubBackward0>)
+total_loss tensor(-11.8321, device='cuda:0', grad_fn=<SubBackward0>)
+{'loss': -12.6619, 'grad_norm': 1.6823029518127441, 'learning_rate': 0.0, 'epoch': 3.0}
+{'train_runtime': 320.3202, 'train_samples_per_second': 9.366, 'train_steps_per_second': 0.468, 'train_loss': -9.615108846028646, 'epoch': 3.0}
+✅ LoRA merged model loaded.
+
+🔍 PMC - Greedy-QA
+diagnosis
+What was 25881 diagnosed of?
+gender
+gender
+diagnosis
+What was 110533 diagnosed of?
+gender
+gender
+age
+diagnosis
+What was 10391 diagnosed of?
+gender
+gender
+gender
+gender
+age
+age
+diagnosis
+What was 115661 diagnosed of?
+gender
+diagnosis
+What was 125129 diagnosed of?
+diagnosis
+What was 34382 diagnosed of?
+age
+gender
+age
+age
+age
+gender
+age
+gender
+age
+diagnosis
+What was 37925 diagnosed of?
+gender
+diagnosis
+What was 47662 diagnosed of?
+age
+age
+age
+diagnosis
+What was 107807 diagnosed of?
+gender
+diagnosis
+What was 153278 diagnosed of?
+diagnosis
+What was 5170 diagnosed of?
+gender
+diagnosis
+What was 10188 diagnosed of?
+gender
+gender
+age
+diagnosis
+What was 64664 diagnosed of?
+diagnosis
+What was 208 diagnosed of?
+gender
+age
+diagnosis
+What was 141572 diagnosed of?
+gender
+gender
+gender
+gender
+age
+gender
+age
+gender
+age
+gender
+age
+diagnosis
+What was 23752 diagnosed of?
+age
+gender
+diagnosis
+What was 67556 diagnosed of?
+age
+gender
+age
+age
+diagnosis
+What was 86789 diagnosed of?
+age
+diagnosis
+What was 122515 diagnosed of?
+diagnosis
+What was 91579 diagnosed of?
+diagnosis
+What was 32516 diagnosed of?
+age
+gender
+gender
+age
+diagnosis
+What was 118657 diagnosed of?
+diagnosis
+What was 7120 diagnosed of?
+age
+age
+gender
+age
+age
+gender
+diagnosis
+What was 65408 diagnosed of?
+age
+gender
+age
+gender
+gender
+diagnosis
+What was 56680 diagnosed of?
+age
+diagnosis
+What was 100829 diagnosed of?
+diagnosis
+What was 21847 diagnosed of?
+diagnosis
+What was 23110 diagnosed of?
+diagnosis
+What was 151302 diagnosed of?
+age
+age
+gender
+gender
+age
+age
+diagnosis
+What was 136159 diagnosed of?
+age
+diagnosis
+What was 144651 diagnosed of?
+gender
+age
+gender
+diagnosis
+What was 155486 diagnosed of?
+age
+gender
+diagnosis
+What was 125698 diagnosed of?
+diagnosis
+What was 67729 diagnosed of?
+age
+age
+gender
+diagnosis
+What was 92776 diagnosed of?
+age
+age
+gender
+gender
+age
+diagnosis
+What was 142461 diagnosed of?
+diagnosis
+What was 158267 diagnosed of?
+diagnosis
+What was 114963 diagnosed of?
+age
+diagnosis
+What was 16111 diagnosed of?
+gender
+gender
+gender
+gender
+gender
+age
+gender
+diagnosis
+What was 28519 diagnosed of?
+diagnosis
+What was 98615 diagnosed of?
+diagnosis
+What was 157029 diagnosed of?
+gender
+diagnosis
+What was 152663 diagnosed of?
+diagnosis
+What was 148029 diagnosed of?
+gender
+gender
+diagnosis
+What was 116686 diagnosed of?
+age
+age
+diagnosis
+What was 161415 diagnosed of?
+age
+diagnosis
+What was 20095 diagnosed of?
+gender
+age
+age
+diagnosis
+What was 34427 diagnosed of?
+diagnosis
+What was 128417 diagnosed of?
+age
+diagnosis
+What was 37073 diagnosed of?
+gender
+diagnosis
+What was 139306 diagnosed of?
+age
+gender
+diagnosis
+What was 147175 diagnosed of?
+diagnosis
+What was 141459 diagnosed of?
+gender
+gender
+gender
+gender
+age
+age
+gender
+diagnosis
+What was 56289 diagnosed of?
+gender
+diagnosis
+What was 43748 diagnosed of?
+gender
+diagnosis
+What was 46576 diagnosed of?
+gender
+age
+age
+diagnosis
+What was 70660 diagnosed of?
+gender
+diagnosis
+What was 104257 diagnosed of?
+age
+gender
+age
+age
+diagnosis
+What was 10743 diagnosed of?
+gender
+gender
+gender
+diagnosis
+What was 130153 diagnosed of?
+gender
+age
+age
+gender
+diagnosis
+What was 118758 diagnosed of?
+gender
+gender
+age
+diagnosis
+What was 104993 diagnosed of?
+age
+gender
+gender
+diagnosis
+What was 120307 diagnosed of?
+age
+gender
+gender
+gender
+gender
+diagnosis
+What was 139216 diagnosed of?
+diagnosis
+What was 149481 diagnosed of?
+age
+gender
+gender
+age
+diagnosis
+What was 59824 diagnosed of?
+age
+diagnosis
+What was 70628 diagnosed of?
+gender
+gender
+diagnosis
+What was 7964 diagnosed of?
+age
+age
+age
+diagnosis
+What was 160232 diagnosed of?
+gender
+diagnosis
+What was 134372 diagnosed of?
+gender
+diagnosis
+What was 5744 diagnosed of?
+age
+age
+diagnosis
+What was 844 diagnosed of?
+gender
+gender
+age
+age
+diagnosis
+What was 35132 diagnosed of?
+age
+diagnosis
+What was 136345 diagnosed of?
+age
+diagnosis
+What was 7863 diagnosed of?
+diagnosis
+What was 115052 diagnosed of?
+diagnosis
+What was 46985 diagnosed of?
+gender
+age
+diagnosis
+What was 32950 diagnosed of?
+gender
+diagnosis
+What was 129943 diagnosed of?
+diagnosis
+What was 87794 diagnosed of?
+gender
+diagnosis
+What was 50705 diagnosed of?
+age
+diagnosis
+What was 21458 diagnosed of?
+gender
+age
+age
+age
+age
+age
+age
+gender
+diagnosis
+What was 139105 diagnosed of?
+age
+age
+diagnosis
+What was 57197 diagnosed of?
+diagnosis
+What was 101739 diagnosed of?
+age
+age
+gender
+gender
+gender
+gender
+gender
+diagnosis
+What was 10769 diagnosed of?
+age
+age
+gender
+gender
+diagnosis
+What was 50157 diagnosed of?
+diagnosis
+What was 103080 diagnosed of?
+age
+diagnosis
+What was 84987 diagnosed of?
+diagnosis
+What was 46284 diagnosed of?
+age
+diagnosis
+What was 103159 diagnosed of?
+diagnosis
+What was 31146 diagnosed of?
+age
+gender
+diagnosis
+What was 143935 diagnosed of?
+age
+diagnosis
+What was 158948 diagnosed of?
+gender
+diagnosis
+What was 79441 diagnosed of?
+diagnosis
+What was 139441 diagnosed of?
+age
+diagnosis
+What was 57007 diagnosed of?
+age
+gender
+gender
+age
+diagnosis
+What was 165191 diagnosed of?
+gender
+diagnosis
+What was 135678 diagnosed of?
+age
+gender
+diagnosis
+What was 132718 diagnosed of?
+age
+age
+diagnosis
+What was 55126 diagnosed of?
+gender
+age
+diagnosis
+What was 101545 diagnosed of?
+gender
+age
+diagnosis
+What was 141230 diagnosed of?
+diagnosis
+What was 164016 diagnosed of?
+diagnosis
+What was 60452 diagnosed of?
+gender
+gender
+gender
+diagnosis
+What was 28116 diagnosed of?
+diagnosis
+What was 57579 diagnosed of?
+gender
+diagnosis
+What was 22247 diagnosed of?
+age
+age
+diagnosis
+What was 142605 diagnosed of?
+diagnosis
+What was 20062 diagnosed of?
+diagnosis
+What was 100543 diagnosed of?
+age
+gender
+diagnosis
+What was 103683 diagnosed of?
+age
+age
+gender
+diagnosis
+What was 140135 diagnosed of?
+gender
+age
+diagnosis
+What was 130223 diagnosed of?
+gender
+gender
+diagnosis
+What was 164010 diagnosed of?
+age
+gender
+gender
+age
+gender
+gender
+age
+gender
+gender
+gender
+gender
+age
+age
+age
+age
+age
+age
+gender
+gender
+diagnosis
+What was 95397 diagnosed of?
+diagnosis
+What was 122500 diagnosed of?
+age
+diagnosis
+What was 159207 diagnosed of?
+diagnosis
+What was 77820 diagnosed of?
+age
+gender
+diagnosis
+What was 87564 diagnosed of?
+age
+diagnosis
+What was 87554 diagnosed of?
+gender
+gender
+gender
+age
+diagnosis
+What was 16741 diagnosed of?
+age
+age
+gender
+gender
+gender
+diagnosis
+What was 55630 diagnosed of?
+diagnosis
+What was 122982 diagnosed of?
+gender
+age
+gender
+age
+age
+diagnosis
+What was 159149 diagnosed of?
+age
+diagnosis
+What was 155778 diagnosed of?
+age
+age
+diagnosis
+What was 53460 diagnosed of?
+diagnosis
+What was 66080 diagnosed of?
+age
+age
+age
+diagnosis
+What was 67976 diagnosed of?
+age
+diagnosis
+What was 29712 diagnosed of?
+diagnosis
+What was 79274 diagnosed of?
+gender
+gender
+gender
+gender
+age
+age
+age
+age
+age
+gender
+age
+diagnosis
+What was 139201 diagnosed of?
+gender
+age
+gender
+gender
+age
+age
+diagnosis
+What was 47613 diagnosed of?
+age
+diagnosis
+What was 94350 diagnosed of?
+diagnosis
+What was 99858 diagnosed of?
+diagnosis
+What was 149573 diagnosed of?
+diagnosis
+What was 96301 diagnosed of?
+age
+diagnosis
+What was 141482 diagnosed of?
+diagnosis
+What was 132851 diagnosed of?
+diagnosis
+What was 41993 diagnosed of?
+gender
+diagnosis
+What was 94632 diagnosed of?
+age
+gender
+gender
+age
+age
+gender
+gender
+gender
+diagnosis
+What was 122115 diagnosed of?
+gender
+diagnosis
+What was 102651 diagnosed of?
+diagnosis
+What was 27079 diagnosed of?
+diagnosis
+What was 159620 diagnosed of?
+gender
+gender
+age
+age
+age
+gender
+diagnosis
+What was 140736 diagnosed of?
+gender
+age
+diagnosis
+What was 45690 diagnosed of?
+diagnosis
+What was 74385 diagnosed of?
+age
+age
+diagnosis
+What was 100855 diagnosed of?
+age
+gender
+diagnosis
+What was 65114 diagnosed of?
+diagnosis
+What was 45083 diagnosed of?
+age
+age
+diagnosis
+What was 6464 diagnosed of?
+diagnosis
+What was 10889 diagnosed of?
+age
+diagnosis
+What was 47855 diagnosed of?
+diagnosis
+What was 20298 diagnosed of?
+age
+diagnosis
+What was 16831 diagnosed of?
+diagnosis
+What was 102810 diagnosed of?
+diagnosis
+What was 31271 diagnosed of?
+gender
+gender
+age
+diagnosis
+What was 88227 diagnosed of?
+gender
+gender
+gender
+gender
+gender
+age
+diagnosis
+What was 82780 diagnosed of?
+gender
+gender
+gender
+age
+age
+diagnosis
+What was 98491 diagnosed of?
+gender
+age
+gender
+diagnosis
+What was 86942 diagnosed of?
+diagnosis
+What was 18494 diagnosed of?
+age
+age
+diagnosis
+What was 34930 diagnosed of?
+diagnosis
+What was 50605 diagnosed of?
+gender
+diagnosis
+What was 113963 diagnosed of?
+gender
+diagnosis
+What was 102837 diagnosed of?
+age
+age
+diagnosis
+What was 140583 diagnosed of?
+gender
+gender
+gender
+diagnosis
+What was 142951 diagnosed of?
+diagnosis
+What was 136534 diagnosed of?
+gender
+gender
+age
+age
+age
+age
+age
+gender
+age
+gender
+age
+age
+gender
+diagnosis
+What was 8240 diagnosed of?
+gender
+age
+age
+gender
+gender
+age
+gender
+gender
+diagnosis
+What was 71148 diagnosed of?
+diagnosis
+What was 25821 diagnosed of?
+diagnosis
+What was 19843 diagnosed of?
+diagnosis
+What was 38075 diagnosed of?
+gender
+gender
+gender
+gender
+diagnosis
+What was 99960 diagnosed of?
+diagnosis
+What was 130555 diagnosed of?
+age
+diagnosis
+What was 27295 diagnosed of?
+gender
+gender
+diagnosis
+What was 11289 diagnosed of?
+age
+gender
+age
+gender
+diagnosis
+What was 30244 diagnosed of?
+diagnosis
+What was 161775 diagnosed of?
+gender
+gender
+age
+age
+diagnosis
+What was 23157 diagnosed of?
+gender
+diagnosis
+What was 131463 diagnosed of?
+age
+diagnosis
+What was 29237 diagnosed of?
+gender
+diagnosis
+What was 132155 diagnosed of?
+gender
+diagnosis
+What was 138265 diagnosed of?
+gender
+diagnosis
+What was 108630 diagnosed of?
+age
+gender
+diagnosis
+What was 45886 diagnosed of?
+age
+age
+diagnosis
+What was 88611 diagnosed of?
+age
+gender
+diagnosis
+What was 64150 diagnosed of?
+diagnosis
+What was 2615 diagnosed of?
+age
+diagnosis
+What was 54133 diagnosed of?
+age
+diagnosis
+What was 26606 diagnosed of?
+diagnosis
+What was 157230 diagnosed of?
+age
+gender
+diagnosis
+What was 103069 diagnosed of?
+gender
+age
+diagnosis
+What was 161243 diagnosed of?
+gender
+age
+gender
+age
+diagnosis
+What was 115107 diagnosed of?
+age
+diagnosis
+What was 64918 diagnosed of?
+age
+gender
+age
+gender
+age
+gender
+diagnosis
+What was 28861 diagnosed of?
+gender
+age
+age
+age
+diagnosis
+What was 122018 diagnosed of?
+diagnosis
+What was 108604 diagnosed of?
+diagnosis
+What was 97448 diagnosed of?
+age
+gender
+diagnosis
+What was 153443 diagnosed of?
+diagnosis
+What was 92379 diagnosed of?
+diagnosis
+What was 124492 diagnosed of?
+age
+gender
+gender
+age
+diagnosis
+What was 12869 diagnosed of?
+age
+age
+diagnosis
+What was 14000 diagnosed of?
+gender
+age
+gender
+diagnosis
+What was 87822 diagnosed of?
+diagnosis
+What was 147814 diagnosed of?
+age
+age
+gender
+gender
+age
+gender
+diagnosis
+What was 44548 diagnosed of?
+diagnosis
+What was 140299 diagnosed of?
+diagnosis
+What was 80255 diagnosed of?
+gender
+gender
+diagnosis
+What was 36920 diagnosed of?
+gender
+gender
+gender
+gender
+diagnosis
+What was 95998 diagnosed of?
+diagnosis
+What was 8412 diagnosed of?
+gender
+age
+diagnosis
+What was 73319 diagnosed of?
+diagnosis
+What was 163088 diagnosed of?
+diagnosis
+What was 155676 diagnosed of?
+gender
+age
+gender
+gender
+age
+gender
+age
+gender
+gender
+gender
+diagnosis
+What was 31683 diagnosed of?
+age
+age
+age
+age
+age
+diagnosis
+What was 74640 diagnosed of?
+age
+diagnosis
+What was 162894 diagnosed of?
+diagnosis
+What was 122969 diagnosed of?
+gender
+gender
+age
+age
+diagnosis
+What was 121370 diagnosed of?
+age
+age
+diagnosis
+What was 66453 diagnosed of?
+diagnosis
+What was 108006 diagnosed of?
+gender
+gender
+diagnosis
+What was 97734 diagnosed of?
+diagnosis
+What was 67130 diagnosed of?
+age
+diagnosis
+What was 37587 diagnosed of?
+age
+age
+gender
+age
+age
+gender
+gender
+diagnosis
+What was 41796 diagnosed of?
+diagnosis
+What was 76294 diagnosed of?
+gender
+gender
+gender
+age
+gender
+diagnosis
+What was 42000 diagnosed of?
+age
+gender
+diagnosis
+What was 106138 diagnosed of?
+gender
+gender
+diagnosis
+What was 82487 diagnosed of?
+gender
+age
+age
+gender
+age
+gender
+age
+gender
+diagnosis
+What was 25016 diagnosed of?
+diagnosis
+What was 75272 diagnosed of?
+diagnosis
+What was 86307 diagnosed of?
+gender
+diagnosis
+What was 69238 diagnosed of?
+gender
+age
+age
+gender
+gender
+age
+age
+diagnosis
+What was 76005 diagnosed of?
+age
+gender
+gender
+gender
+age
+diagnosis
+What was 140452 diagnosed of?
+gender
+diagnosis
+What was 125508 diagnosed of?
+diagnosis
+What was 59834 diagnosed of?
+diagnosis
+What was 154800 diagnosed of?
+age
+age
+diagnosis
+What was 154923 diagnosed of?
+age
+age
+gender
+gender
+diagnosis
+What was 29449 diagnosed of?
+gender
+diagnosis
+What was 32389 diagnosed of?
+age
+diagnosis
+What was 16016 diagnosed of?
+age
+age
+diagnosis
+What was 145600 diagnosed of?
+diagnosis
+What was 147202 diagnosed of?
+age
+age
+diagnosis
+What was 112810 diagnosed of?
+diagnosis
+What was 9970 diagnosed of?
+gender
+gender
+age
+gender
+age
+gender
+diagnosis
+What was 116001 diagnosed of?
+age
+diagnosis
+What was 161781 diagnosed of?
+gender
+gender
+gender
+age
+diagnosis
+What was 50267 diagnosed of?
+diagnosis
+What was 148893 diagnosed of?
+diagnosis
+What was 87636 diagnosed of?
+age
+gender
+gender
+diagnosis
+What was 122672 diagnosed of?
+gender
+age
+gender
+age
+diagnosis
+What was 28387 diagnosed of?
+age
+gender
+age
+age
+diagnosis
+What was 26138 diagnosed of?
+diagnosis
+What was 12607 diagnosed of?
+diagnosis
+What was 51124 diagnosed of?
+diagnosis
+What was 98398 diagnosed of?
+age
+diagnosis
+What was 125466 diagnosed of?
+diagnosis
+What was 43717 diagnosed of?
+age
+gender
+diagnosis
+What was 65092 diagnosed of?
+age
+gender
+diagnosis
+What was 76606 diagnosed of?
+gender
+diagnosis
+What was 132728 diagnosed of?
+gender
+age
+diagnosis
+What was 137599 diagnosed of?
+age
+diagnosis
+What was 85917 diagnosed of?
+diagnosis
+What was 16491 diagnosed of?
+diagnosis
+What was 12903 diagnosed of?
+diagnosis
+What was 115556 diagnosed of?
+gender
+diagnosis
+What was 155271 diagnosed of?
+gender
+age
+gender
+gender
+diagnosis
+What was 132138 diagnosed of?
+diagnosis
+What was 88405 diagnosed of?
+age
+gender
+age
+gender
+diagnosis
+What was 73717 diagnosed of?
+age
+age
+gender
+age
+gender
+gender
+diagnosis
+What was 89986 diagnosed of?
+diagnosis
+What was 150154 diagnosed of?
+gender
+diagnosis
+What was 14508 diagnosed of?
+gender
+gender
+diagnosis
+What was 56604 diagnosed of?
+gender
+gender
+gender
+diagnosis
+What was 79720 diagnosed of?
+age
+diagnosis
+What was 124852 diagnosed of?
+age
+age
+age
+gender
+age
+gender
+age
+diagnosis
+What was 27632 diagnosed of?
+diagnosis
+What was 119174 diagnosed of?
+diagnosis
+What was 163178 diagnosed of?
+age
+age
+age
+age
+diagnosis
+What was 68521 diagnosed of?
+diagnosis
+What was 98948 diagnosed of?
+age
+diagnosis
+What was 11692 diagnosed of?
+age
+age
+gender
+gender
+age
+gender
+gender
+diagnosis
+What was 50428 diagnosed of?
+diagnosis
+What was 61181 diagnosed of?
+gender
+diagnosis
+What was 32706 diagnosed of?
+gender
+diagnosis
+What was 61414 diagnosed of?
+age
+age
+diagnosis
+What was 144055 diagnosed of?
+gender
+diagnosis
+What was 71088 diagnosed of?
+age
+diagnosis
+What was 82446 diagnosed of?
+gender
+diagnosis
+What was 12491 diagnosed of?
+diagnosis
+What was 152698 diagnosed of?
+age
+gender
+gender
+age
+gender
+age
+diagnosis
+What was 161795 diagnosed of?
+gender
+gender
+gender
+gender
+diagnosis
+What was 108181 diagnosed of?
+gender
+diagnosis
+What was 3232 diagnosed of?
+diagnosis
+What was 106930 diagnosed of?
+gender
+diagnosis
+What was 115991 diagnosed of?
+diagnosis
+What was 35922 diagnosed of?
+age
+✅ Acc 0.0000
+
+🔍 PMC - Greedy-Cloze
+✅ Acc 0.0000
+
+🔍 PMC - Greedy-BG-Probe
+✅ Acc 0.0000
+✅ MCQ-llh-mcqs_PMC_forget_att Acc 0.2800
+✅ MCQ-llh-mcqs_PMC_forget_id_equal Acc 0.2800
+✅ MCQ-llh-mcqs_PMC_forget_id_identical Acc 0.3043
+✅ MCQ-llh-mcqs_PMC_retain_att Acc 0.2100
+✅ MCQ-llh-mcqs_PMC_retain_id_equal Acc 0.2600
+✅ MCQ-llh-mcqs_PMC_retain_id_identical Acc 0.2400
+
+📑 Summary & logs saved to grid_search/results/Mistral_lm0.3_fw0.6_lr1e-05_gm1/eval_retain
+🏁 Done.
+✅ LoRA merged model loaded.
+
+🔍 PMC - Greedy-QA
+age
+gender
+gender
+gender
+age
+diagnosis
+What was 52232 diagnosed of?
+age
+age
+gender
+diagnosis
+What was 4459 diagnosed of?
+diagnosis
+What was 148678 diagnosed of?
+age
+gender
+gender
+age
+age
+age
+diagnosis
+What was 78898 diagnosed of?
+diagnosis
+What was 77497 diagnosed of?
+diagnosis
+What was 38078 diagnosed of?
+gender
+diagnosis
+What was 88505 diagnosed of?
+age
+gender
+diagnosis
+What was 150303 diagnosed of?
+gender
+age
+age
+gender
+age
+diagnosis
+What was 85591 diagnosed of?
+gender
+gender
+gender
+diagnosis
+What was 37578 diagnosed of?
+diagnosis
+What was 162504 diagnosed of?
+gender
+age
+diagnosis
+What was 130881 diagnosed of?
+diagnosis
+What was 42211 diagnosed of?
+diagnosis
+What was 109509 diagnosed of?
+age
+age
+diagnosis
+What was 60233 diagnosed of?
+gender
+age
+diagnosis
+What was 166248 diagnosed of?
+gender
+diagnosis
+What was 75330 diagnosed of?
+gender
+age
+diagnosis
+What was 39805 diagnosed of?
+diagnosis
+What was 161595 diagnosed of?
+diagnosis
+What was 162881 diagnosed of?
+diagnosis
+What was 23925 diagnosed of?
+diagnosis
+What was 165389 diagnosed of?
+age
+age
+age
+diagnosis
+What was 89561 diagnosed of?
+gender
+age
+gender
+diagnosis
+What was 32971 diagnosed of?
+diagnosis
+What was 36190 diagnosed of?
+age
+gender
+gender
+age
+gender
+age
+age
+age
+age
+age
+gender
+gender
+age
+gender
+diagnosis
+What was 48906 diagnosed of?
+age
+age
+diagnosis
+What was 43958 diagnosed of?
+diagnosis
+What was 48807 diagnosed of?
+age
+gender
+age
+diagnosis
+What was 17642 diagnosed of?
+gender
+diagnosis
+What was 115087 diagnosed of?
+age
+diagnosis
+What was 28376 diagnosed of?
+gender
+gender
+gender
+diagnosis
+What was 45215 diagnosed of?
+age
+gender
+gender
+age
+✅ Acc 0.0000
+
+🔍 PMC - Greedy-Cloze
+✅ Acc 0.0000
+
+🔍 PMC - Greedy-BG-Probe
+✅ Acc 0.0000
+✅ MCQ-llh-mcqs_PMC_forget_att Acc 0.2800
+✅ MCQ-llh-mcqs_PMC_forget_id_equal Acc 0.2800
+✅ MCQ-llh-mcqs_PMC_forget_id_identical Acc 0.3043
+✅ MCQ-llh-mcqs_PMC_retain_att Acc 0.2100
+✅ MCQ-llh-mcqs_PMC_retain_id_equal Acc 0.2600
+✅ MCQ-llh-mcqs_PMC_retain_id_identical Acc 0.2400
+
+📑 Summary & logs saved to grid_search/results/Mistral_lm0.3_fw0.6_lr1e-05_gm1/eval_forget
+🏁 Done.
